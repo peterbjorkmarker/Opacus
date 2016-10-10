@@ -4,7 +4,7 @@ import { PersonService, Person } from './person.service';
 @Component({
     selector: 'my-app',
     template: `
-    <h1>Opacus</h1>
+    <h1>Opacus Dev</h1>
     <ul>
      <li *ngFor="let person of persons">
     <strong>{{person.name}}</strong><br>
